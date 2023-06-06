@@ -1,0 +1,39 @@
+{
+    "name": "Rode",
+    "description": " Welcome to Source Rode !",
+    "stack": "container",
+    "repository": "https://github.com/haahjwjq/fidiwub",
+    "keywords": [
+        "python",
+        "chatbot",
+        "telegrambot"
+    ],
+    "website": "https://github./haahjwjq/fidiwub",
+    "env": {
+        "APP_ID": {
+            "description": "APP_ID",
+            "value": "",
+            "required": true
+        },
+        "APP_HASH": {
+            "description": "APP_HASH",
+            "value": "",
+            "required": true
+        },
+        "TERMUX": {
+            "description": "TERMUX",
+            "value": "",
+            "required": true
+        },
+        "TOKEN": {
+            "description": "TOKEN Bot",
+            "value": "",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "USER BOT Not @",
+            "value": "",
+            "required": true
+        }
+    }
+}
