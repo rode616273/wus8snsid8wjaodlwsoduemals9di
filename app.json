@@ -10,16 +10,6 @@
     ],
     "website": "https://github./haahjwjq/fidiwub",
     "env": {
-        "APP_ID": {
-            "description": "APP_ID",
-            "value": "",
-            "required": true
-        },
-        "APP_HASH": {
-            "description": "APP_HASH",
-            "value": "",
-            "required": true
-        },
         "TERMUX": {
             "description": "TERMUX",
             "value": "",
