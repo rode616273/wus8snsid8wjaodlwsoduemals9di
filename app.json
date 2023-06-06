@@ -14,16 +14,6 @@
             "description": "TERMUX",
             "value": "",
             "required": true
-        },
-        "TOKEN": {
-            "description": "TOKEN Bot",
-            "value": "",
-            "required": true
-        },
-        "BOT_USERNAME": {
-            "description": "USER BOT Not @",
-            "value": "",
-            "required": true
         }
     }
 }
