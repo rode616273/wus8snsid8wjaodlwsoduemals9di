@@ -1,8 +1,8 @@
 from telethon.sync import TelegramClient
 from telethon.sessions import StringSession
 import os
-APP_ID = '26272949'
-APP_HASH = '0e740796455d992a273fc1df79effcd1'
+APP_ID = '27153901'
+APP_HASH = 'b3ab002ac2101538a80ce0e2064f6894'
 BOT_USERNAME = 'jcjffuuffuufbot'
 session = os.environ.get("TERMUX")
 SESSION = os.environ.get("TERMUX")
