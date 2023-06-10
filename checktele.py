@@ -59,11 +59,15 @@ def gen_user(choice):
         d = random.choices(e)
         s = random.choices(a)
         f = [s[0], d[0]]
+        random.shuffle(f)
+        username = ''.join(f)
         username = username+'vip'
         if username in banned[0]:
             d = random.choices(e)
             s = random.choices(a)
             f = [s[0], d[0]]
+            random.shuffle(f)
+            username = ''.join(f)
             username = username+'vip'
         else:
             pass
