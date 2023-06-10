@@ -55,6 +55,18 @@ def gen_user(choice):
             username = ''.join(f)
         else:
             pass
+    if choice == "2":
+        d = random.choices(e)
+        s = random.choices(a)
+        f = [s[0], d[0]]
+        username = username+'vip'
+        if username in banned[0]:
+            d = random.choices(e)
+            s = random.choices(a)
+            f = [s[0], d[0]]
+            username = username+'vip'
+        else:
+            pass
     return username
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.تشيكر"))
