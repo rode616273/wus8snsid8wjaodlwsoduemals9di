@@ -61,7 +61,7 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("@l_r_f"))
+        await sython(JoinChannelRequest("@UiUUUU1"))
     except BaseException:
         pass
 
@@ -75,15 +75,16 @@ async def _(event):
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.فحص"))
 async def _(event):
     start = datetime.datetime.now()
-    await event.edit("Wait ...")
+    await event.edit("جارٍ...")
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-⤷ Welcome To Source Rode
+⤷ Welcome To Source Rode : @UiUUUU1
 ⤷ PING : `{ms}`
 ⤷ DATE : `{m9zpi}`
 ⤷ ID : `{event.sender_id}`
-⤷ Source Commands `.الاوامر`''')
+⤷ Source Commands `.الاوامر`
+''')
 
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.م1"))
@@ -110,18 +111,18 @@ async def _(event):
     await event.edit(sec4)
 
     
-ownerhson_id = 796254529
+ownerhson_id = 1041483862
 @sython.on(events.NewMessage(outgoing=False, pattern='فزعه'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('.')
+        order = await event.reply('هنا يمك Rode ابشر  @H_P_K')
 
-@sython.on(events.NewMessage(outgoing=True, pattern=r"\.rest"))
+@sython.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
 async def update(event):
-    await event.edit("The Source is Rest ,\n• Wait 1-2 minutes 🔃 .")
+    await event.edit("• جارِ اعادة تشغيل السورس ..\n• انتضر 1-2 دقيقة  .")
     await sython.disconnect()
-    await sython.send_message("me", "`Done Rest Source 🔔`")
+    await sython.send_message("me", "`اكتملت اعادة تشغيل السورس !`")
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.تجميع المليار"))
 async def _(event):
@@ -219,7 +220,7 @@ logging.basicConfig(
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("@RRJRJ"))
+        await sython(JoinChannelRequest("@UiUUUU1"))
     except BaseException:
         pass
  
@@ -383,7 +384,7 @@ async def spammer(event):
     
 @sython.on(events.NewMessage(outgoing=True, pattern=".سورس"))
 async def _(event):
-      await event.reply("""السـورس يعمـل |حلم
+      await event.reply("""السـورس يعمـل | Rode
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 
 
@@ -393,7 +394,7 @@ async def _(event):
 
 @sython.on(events.NewMessage(outgoing=True, pattern=".مطور"))
 async def _(event):
-      await event.reply("""Rode : @n_nnnnn"""
+      await event.reply("""Rode : @Qx222"""
 )
 
 @sython.on(events.NewMessage(outgoing=True, pattern=".حلويات"))
