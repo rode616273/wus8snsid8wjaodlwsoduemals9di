@@ -292,7 +292,7 @@ async def _(event):
 ⤷ User : ❲ @{username} ❳ .   . 
 ⤷ ClickS :  ❲ {trys} ❳ .  
 ⤷ Tapy :  ❲ Channel ❳ .  
-⤷ Source : @l_f_f
+⤷ Source : @l_r_f
 — — — —— — — —
     ''')
                     break
@@ -353,7 +353,7 @@ async def _(event):
 ⤷ User : ❲ @{username} ❳ .   . 
 ⤷ ClickS :  ❲ {trys} ❳ .  
 ⤷ Tapy :  ❲ Channel ❳ .  
-⤷ Source : @l_f_f
+⤷ Source : @l_r_f
 — — — —— — — —
 
     ''')
@@ -391,7 +391,7 @@ async def _(event):
 ⤷ User : ❲ @{username} ❳ .   . 
 ⤷ ClickS :  ❲ {trys} ❳ .  
 ⤷ Tapy :  ❲ Channel ❳ .  
-⤷ Source : @l_f_f
+⤷ Source : @l_r_f
 — — — —— — — —
     ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
